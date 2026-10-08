@@ -1,0 +1,12 @@
+produit = "clavier"
+
+prix_ht = 19,90
+
+quantite = 3
+
+taux_tva = 0.2
+
+total_ht = prix_ht * quantite
+
+total_ttc = total_ht * (int(1 + taux_tva))
+print (f"total_ttc = ",{total_ttc})
